@@ -110,8 +110,6 @@ namespace NzbDrone.Core.Indexers.Definitions.DivxTotal
                                 }
                             }
 
-                            pageSize = pageSize == 1 ? page.Releases.Count : pageSize;
-
                             result.Queries.Add(page);
 
                             pagedReleases.AddRange(page.Releases);
